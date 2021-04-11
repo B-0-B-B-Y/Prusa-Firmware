@@ -33,10 +33,6 @@ if [ "$LNG" = "all" ]; then
  exit 0
 fi
 
-if [ "$LNG" = "bg" ]; then
-   echo "We chose bulgarian"
-fi
-
 # language code (iso639-1) is equal to LNG
 LNGISO=$LNG
 # exception for 'cz' (code='cs')
