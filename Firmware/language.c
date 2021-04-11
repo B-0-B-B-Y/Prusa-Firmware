@@ -214,6 +214,9 @@ const char* lang_get_name_by_code(uint16_t code)
 #ifdef COMMUNITY_LANG_NL
 	case LANG_CODE_NL: return _n("Nederlands"); //community contribution
 #endif // COMMUNITY_LANG_NL
+#ifdef COMMUNITY_LANG_BG
+	case LANG_CODE_BG: return _n("Български"); //community contribution
+#endif // COMMUNITY_LANG_BG
 
 //Use the 3 lines below as a template and replace 'QR' and 'New language'
 //#ifdef COMMUNITY_LANG_QR 

@@ -25,10 +25,16 @@ if [ "$LNG" = "all" ]; then
 #Community language support
 #Dutch
  ./lang-export.sh nl
+#Bulgarian
+ ./lang-export.sh "bg"
 #Use the 2 lines below as a template and replace 'qr' and 'New language'
 ##New language
 # ./lang-export.sh qr
  exit 0
+fi
+
+if [ "$LNG" = "bg" ]; then
+   echo "We chose bulgarian"
 fi
 
 # language code (iso639-1) is equal to LNG
@@ -57,6 +63,8 @@ else
 #Community language support
 #Dutch
    *nl*) echo "Dutch" ;;
+#Bulgarian
+   *bg*) echo "Bulgarian" ;;
 #Use the 2 lines below as a template and replace 'qr' and 'New language'
 ##New language
 #   *qr*) echo "New language" ;;

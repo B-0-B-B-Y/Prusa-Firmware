@@ -40,6 +40,7 @@ rm_if_exists firmware_pl.hex
 rm_if_exists progmem.out
 rm_if_exists textaddr.out
 rm_if_exists update_lang.out
+rm_if_exists update_lang_bg.out
 rm_if_exists update_lang_cz.out
 rm_if_exists update_lang_de.out
 rm_if_exists update_lang_es.out
@@ -52,6 +53,8 @@ rm_if_exists lang.hex
 #Community language support
 #Dutch
 rm_if_exists firmware_nl.hex
+#Bulgarian
+rm_if_exists firmware_bg.hex
 
 #Use the 2 lines below as a template and replace 'qr'
 ##New language
